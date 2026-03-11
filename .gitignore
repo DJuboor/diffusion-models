@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# uv
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Data & models (downloaded at runtime)
+data/
+models/
+outputs/
+*.mp4
+*.avi
+*.wav
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Quality
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Private notes
+notes.md
+contacts.md
+
+# Cleanup
+.git_old*/
+.git_nuke*/

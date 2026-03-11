@@ -1,0 +1,27 @@
+[project]
+name = "diffusion-models"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "diffusers>=0.30",
+    "transformers>=4.40",
+    "accelerate",
+    "safetensors",
+    "einops",
+    "torchvision",
+    "matplotlib",
+    "ipywidgets",
+    "jupyter",
+    "ipykernel",
+    "Pillow",
+    "tqdm",
+    "clean-fid",
+    "torchmetrics",
+    "opencv-python",
+    "scenedetect[opencv]",
+    "lancedb",
+    "pylance",
+    "webdataset",
+    "mosaicml-streaming",
+]
