@@ -155,6 +155,17 @@ make clean    # Remove generated files + kernel
 
 ---
 
+## 🧪 Exams
+
+Timed, spec-driven coding exams in `notebooks/exams/` — all formulas provided, no memorization required.
+
+| Series | EASY | MEDIUM | HARD | ELITE |
+|--------|------|--------|------|-------|
+| **Data** (pipelines, search, quality) | 8 × 15-20 min | 8 warmups + 8 × 30 min | 8 × 30 min | 6 × 30 min |
+| **Modeling** (architectures, training) | 8 × 15-20 min | 8 × 30 min | 8 × 30 min | 6 × 30 min |
+
+---
+
 ## 🏗️ Architecture
 
 <details>
@@ -166,28 +177,11 @@ diffusion-models/
 ├── pyproject.toml
 ├── README.md
 └── notebooks/
-    ├── 01_video_ai_landscape_and_data_needs.ipynb
-    ├── 02_video_data_pipeline.ipynb
-    ├── 03_data_dedup_and_quality.ipynb
-    ├── 04_recaptioning_and_data_mixing.ipynb
-    ├── 05_training_data_infrastructure.ipynb
-    ├── 06_system_design.ipynb
-    ├── 07_pytorch_drills.ipynb
-    ├── 08_diffusion_from_scratch.ipynb
-    ├── 09_stable_diffusion_deepdive.ipynb
-    ├── 10_dit_and_flow_matching.ipynb
-    ├── 11_guidance_and_control.ipynb
-    ├── 12_stable_cascade.ipynb
-    ├── 13_video_generation.ipynb
-    ├── 14_inference_optimization.ipynb
-    ├── 15_eval_metrics.ipynb
-    ├── 16_autoregressive_video.ipynb
-    ├── 17_realtime_distillation.ipynb
-    ├── 18_long_context.ipynb
-    ├── 19_multimodal_generation.ipynb
-    ├── 20_finetuning_adapters.ipynb
-    ├── 21_distributed_training_infra.ipynb
-    └── 22_video_gen_landscape.ipynb
+    ├── 01–22 learning notebooks
+    ├── X.5 end-of-day review exams
+    └── exams/
+        ├── DATA_EXAM_{EASY,MEDIUM,HARD,ELITE}.ipynb
+        └── MODELING_EXAM_{EASY,MEDIUM,HARD,ELITE}.ipynb
 ```
 
 </details>
