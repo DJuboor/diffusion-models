@@ -157,12 +157,14 @@ make clean    # Remove generated files + kernel
 
 ## 🧪 Exams
 
-Timed, spec-driven coding exams in `notebooks/exams/` — all formulas provided, no memorization required.
+Timed, spec-driven coding exams in `notebooks/exams/` — all formulas provided, no memorization required. Mix: ~50% data pipelines, ~40% classic ML basics, ~10% modeling.
 
-| Series | EASY | MEDIUM | HARD | ELITE |
-|--------|------|--------|------|-------|
-| **Data** (pipelines, search, quality) | 8 × 15-20 min | 8 warmups + 8 × 30 min | 8 × 30 min | 6 × 30 min |
-| **Modeling** (architectures, training) | 8 × 15-20 min | 8 × 30 min | 8 × 30 min | 6 × 30 min |
+| Tier | Problems | Time Each | Focus |
+|------|----------|-----------|-------|
+| **EASY** | 8 | 15-20 min | Data basics + ML fundamentals (k-means, KNN, regression) |
+| **MEDIUM** | 8 warmups + 8 full | 5-10 / 30 min | Core screening difficulty (datasets, PCA, naive bayes, training) |
+| **HARD** | 6 | 30 min | Stretch (dedup pipelines, bucketed loaders, optimizers, backprop) |
+| **ELITE** | 5 | 30 min | Ceiling (embedding pipelines, flow matching, LoRA, autoencoders) |
 
 ---
 
@@ -180,8 +182,8 @@ diffusion-models/
     ├── 01–22 learning notebooks
     ├── X.5 end-of-day review exams
     └── exams/
-        ├── DATA_EXAM_{EASY,MEDIUM,HARD,ELITE}.ipynb
-        └── MODELING_EXAM_{EASY,MEDIUM,HARD,ELITE}.ipynb
+        ├── EXAM_{EASY,MEDIUM,HARD,ELITE}.ipynb
+        └── archive/   (8 original split notebooks)
 ```
 
 </details>
